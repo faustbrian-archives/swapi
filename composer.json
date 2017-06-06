@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/swapi-php-client",
     "description": "A SWAPI Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-swapi", "swapi", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "swapi", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
