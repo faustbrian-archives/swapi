@@ -1,13 +1,19 @@
 {
-    "name": "faustbrian/swapi-php-client",
+    "name": "plients/swapi",
     "description": "A SWAPI Client for PHP",
-    "keywords": ["api", "http", "swapi"],
+    "keywords": [
+        "api",
+        "http",
+        "swapi"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\SWAPI\\": "src"
+            "Plients\\SWAPI\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\SWAPI\\": "tests"
+            "Plients\\Tests\\SWAPI\\": "tests"
         }
     },
     "config": {
